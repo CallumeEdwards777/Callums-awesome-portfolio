@@ -1,0 +1,142 @@
+/* UNIVERSAL SELECTOR */
+* {
+    font-family: 'Times New Roman', serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ELEMENT SELECTOR */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: burlywood;
+    color: #333;
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+/* HEADER */
+header {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 40px; 
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+/* NAVIGATION LINKS */
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* SECTION STYLING */
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #222;
+    text-align: center;
+}
+
+/* PROJECT IMAGE ALIGNMENT WITH CLASS SELECTOR*/
+.project-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    background-size: 200px 200px;
+}
+
+/* PROJECT IMAGE DIMENSIONS */
+.project-images img {
+    width: 300px;
+    border-radius: 50px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    justify-content: center;
+    margin: auto;
+}
+
+/* INPUTS */
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* SUBMIT BUTTON */
+input [type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* BUTTON HOVER */
+input[type="submit"]:hover {
+    background-color: #00bcd4;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Boon image effects UNIQUE ID EASTER EGG */
+    #boon:hover {
+    scale: 1.2;
+    transition: scale 0.5s ease;
+    rotate: 1080deg;
+    transition: rotate 0.5s ease;
+    transition-duration: 2s;
+}
+
+
+
+   
+
+
